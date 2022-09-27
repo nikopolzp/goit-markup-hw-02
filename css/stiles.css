@@ -173,6 +173,10 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
+.residence {
+    font-style: normal;
+}
+
 .footer .logo {
     color: var(--primary-color);
 }
