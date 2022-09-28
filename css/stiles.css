@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font: size 14px;
+    font-size: 14px;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     background-color: var(--primary-color);
@@ -44,6 +44,7 @@ body {
 }
 
 .site-nav .link {
+    line-height: 1.14;
     font-weight: 500;
     color: var(--title-text-color);
 }
@@ -85,6 +86,7 @@ body {
 
 .button {
     font-family: inherit;
+    font-style: 16px;
     color: var(--primary-color);
     background-color: var(--accent-color);
     border-radius: 4px;
@@ -125,13 +127,10 @@ body {
 }
 
 .features .subtitle {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-}
-
-.text {
-    color: var(--primary-text-color);
 }
 
 .features .text {
@@ -165,6 +164,8 @@ body {
 }
 
 .team .profession {
+    font-size: 16px;
+    line-height: 1.19;
     text-align: center;
 }
 
@@ -223,7 +224,6 @@ body {
 }
 
 .examples>.item {
-    border: 1px solid var(--examples-border);
     text-decoration: none;
 }
 
@@ -232,4 +232,9 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+
+.examples .text {
+    font-size: 16px;
+    line-height: 1.9;
 }
